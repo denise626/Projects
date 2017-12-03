@@ -1,0 +1,180 @@
+body {
+	
+	background-color: #ccd1d1;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	
+}
+
+.title {
+	
+	font-size: 30px;
+	text-decoration: none;
+	color: #262626;
+	
+}
+
+.heading {
+	
+	text-align: center;
+	margin-bottom: 30px;
+	
+}
+
+
+
+.menu {
+	
+	background: #ff33cc;
+	padding: 6px 0px 6px 40px;
+	font-size: 25px;
+	
+}
+
+ h2	{
+	
+	text-align: center;
+	
+}
+
+.main {
+	
+	margin: 0px 0px 0px 180px;
+	padding: 35px 40px 30px 0px;
+	color:  #333333;
+	font-size: 30px;
+	text-emphasis: justify;
+	
+}
+
+
+
+a {
+	
+	text-decoration: none;
+	
+}
+
+.main a:hover {
+	
+	color: #8c8c8c;
+	
+}
+
+
+.kittenandpuppy  {
+	
+	display: block;
+	margin: 0px auto;
+	padding: 20px;
+	
+}
+
+li {
+	
+	padding: 20px;
+	
+}
+
+footer {
+
+	padding: 6px 40px;
+	background: #ff33cc;
+	font-size: 25px;
+}
+
+.icon {
+
+	float: right;
+}
+
+
+/*  About us page styling */
+
+
+.dogfrisbee {
+	
+	display: block;
+	width: 1000px;
+	height: 500px;
+	padding: 20px;
+	margin: 0px auto;
+}	
+
+.about {
+	
+	margin: 0px 0px 0px 180px;
+	padding: 35px 40px 30px 0px;
+	color:  #333333;
+	font-size: 20px;
+	text-emphasis: justify;
+}
+
+/* Contact page styling */
+
+#contact #form {
+	
+	width: 500px;
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto;
+	box-shadow: 0px 9px 13px 5px;
+	border-radius: 5px;
+	
+}
+
+#contact #form input {
+	
+	width: 100%;
+	border-radius: 5px;
+	background-color: #ff33cc;
+	height: 20px;
+	
+}
+
+#contact #form #message {
+	
+	width: 100%;
+	border-radius: 5px;
+	background-color: #ff33cc;
+	
+}
+
+#contact #form #submit {
+	
+	background: #ff33cc;
+	height: 30px;
+	
+}
+	
+	/* Media Queries */
+	
+@media only screen (min-width: 769px),
+	   only screen (min-width: 1025px){
+	
+	.wrap {
+		min-height: calc(100vh - 30px);
+		
+	}
+	
+	
+	.container {
+		width: 100%;
+		padding: 20px;
+	}
+	
+	img {
+		opacity: .99;
+		
+	}
+	
+} 
+
+	
+	
+	
+	
+	
+	
+	
